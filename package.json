@@ -1,12 +1,26 @@
 {
-  "name": "nathanhealea-create-react-app-template",
-  "version": "1.0.0",
+  "name": "@nathanhealea/cra-template-personal",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "nathanhealea",
+    "create-react-app",
+    "template",
+    "tailwindcss",
+    "react-router-dom"
+  ],
+  "main": "template.json",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NathanHealea/Create-React-App-Template.git"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
   "author": "",
   "license": "ISC"
 }
