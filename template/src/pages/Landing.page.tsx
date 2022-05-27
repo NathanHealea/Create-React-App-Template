@@ -15,12 +15,11 @@ interface LandingPageProps {
  */
 const LandingPage = (props: LandingPageProps) => {
   return (
-    <div className=' h-screen flex flex-col justify-center items-center'>
-      <div className=' grow flex flex-col justify-center items-center'>
-        <h1 className=' text-4xl uppercase font-mono font-thin'>
+    <div className='flex flex-col items-center justify-center h-screen '>
+      <div className='flex flex-col items-center justify-center grow'>
+        <h1 className='font-mono text-4xl font-thin uppercase '>
           {packageJson.name}
         </h1>
-        <h2 className='text-xl'>{packageJson.description}</h2>
       </div>
       <p>v{packageJson.version}</p>
     </div>
